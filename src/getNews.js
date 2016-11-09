@@ -1,4 +1,4 @@
-var client = require('ft-api-client')(eam48ke2mb5dr8xvm6d2v3qy);
+var client = require('ft-api-client')();
 
 client.search("Donald Trump").then(function (articles) {
   console.log(articles);
